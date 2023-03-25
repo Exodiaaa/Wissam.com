@@ -671,8 +671,9 @@ color: var(--body-color);
           margin-bottom: 2.5rem;
           }
           .skills_container{
-         grid-template-columns: repeat(2,350px);
+/*          grid-template-columns: repeat(2,350px); */
             column-gap: 3rem;
+            justify-content: center;
             }
 
             .contact_container {
